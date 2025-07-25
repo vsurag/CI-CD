@@ -1,29 +1,35 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #fff0e6; /* Light peach */
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 50px;
+    margin: 50px;
+    color: #040404;
   }
   
   h1 {
-    color: #2e8b57;
+    color: #c07847; /* Dark orange */
+    margin-bottom: 20px;
   }
   
   p {
-    color: #555;
     font-size: 18px;
+    margin-top: 20px;
   }
   
-  button {
-    background-color: #2e8b57;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
+  img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
   }
   
-  button:hover {
-    background-color: #246b45;
+  a {
+    color: #e67e22; /* Orange link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #d35400; /* Darker on hover */
+    text-decoration: underline;
   }
